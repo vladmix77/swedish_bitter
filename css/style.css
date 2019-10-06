@@ -32,6 +32,17 @@ body {
 .header__phone a {
   color: #303030;
   text-decoration: none;
+  position: relative;
+}
+
+.header__phone a:before {
+  content:'';
+  background-image: url(../images/phone.svg);
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: -27px;
+  top: 5px;
 }
 
 .header__phone-text {
@@ -41,3 +52,4 @@ body {
   text-align: right;
   margin-top: 5px;
 }
+
