@@ -91,4 +91,33 @@ body {
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.7px;
+}
+
+.top__inner-title {
+  font-size: 60px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.top__inner-text {
+  margin-bottom: 90px;
+  font-style: 18px;
+  color: #fff;
+  line-height: 24px;
+}
+
+.top__form {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.top__form form{
+  border:  1px solid #c8dcba;
+}
+
+.top__form-inner {
+  padding: 50px;
 }
