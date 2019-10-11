@@ -183,22 +183,16 @@ body {
   top: 25px;
 }
 
+/* Блок advantages */
 
-.block__wrapper {
+.advantages__inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.block__box {
+.advantages__item {
   max-width: 250px;
 }
-
-.block__box-circle {
-  background-image: url(../images/circle.png);
-width: 26px;
-height: 26px;
-}
-
 
 
 
