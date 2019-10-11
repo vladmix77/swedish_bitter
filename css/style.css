@@ -86,7 +86,7 @@ body {
 }
 
 .top__inner-suptitle {
-  margin-top: 80px;
+  margin-top: 70px;
   margin-bottom: 25px;
   font-weight: 700;
   font-size: 14px;
@@ -103,7 +103,7 @@ body {
 }
 
 .top__inner-text {
-  margin-bottom: 90px;
+  margin-bottom: 73px;
   font-style: 18px;
   color: #fff;
   line-height: 24px;
@@ -145,6 +145,7 @@ body {
   width: 195px;
 }
 
+/* Применение к следующему input (второму) и если бы были еще, то и к следущим input (3,4,5...) */
 .top__form input + input {
   margin-left: 30px;
 }
@@ -181,3 +182,46 @@ body {
   right: 60px;
   top: 25px;
 }
+
+
+.block__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block__box {
+  max-width: 250px;
+}
+
+.block__box-circle {
+  background-image: url(../images/circle.png);
+width: 26px;
+height: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 7:15 */
