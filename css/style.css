@@ -53,3 +53,20 @@ body {
   margin-top: 5px;
 }
 
+.top {
+  margin-bottom: 95px;
+}
+
+.top__images {
+  background-image: url(../images/top-bg.jpg);
+  min-height: 544px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  max-width: 1720px;
+  margin: 0 auto;
+}
+
+.top__wrapper {
+  margin-top: -450px;
+}
