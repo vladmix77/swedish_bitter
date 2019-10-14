@@ -198,6 +198,10 @@ body {
   justify-content: space-around;
 }
 
+.advantages {
+  margin-bottom: 200px;
+}
+
 .advantages__item {
   max-width: 250px;
   padding-left: 40px;
@@ -235,6 +239,50 @@ body {
   line-height: 24px;
 }
 
+/* Блок list  */
+
+.list {
+}
+
+.list__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list__title {
+  font-weight: 700;
+  color: #303030;
+  font-size: 40px;
+  line-height: 50px;
+  max-width: 470px;
+  margin-bottom: 30px;
+}
+
+.tabs__content {
+  width: 500px;
+  height: 689px;
+  background-image: url(../images/list-images.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.tab {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #303030;
+  letter-spacing: 0.7px;
+  padding: 20px 0;
+  border-bottom: 1px solid #e6efde;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.tab span {
+  color: #a4c58c;
+  margin-right: 18px;
+}
 
 
 
@@ -253,4 +301,9 @@ body {
 
 
 
-/* 30:55 */
+
+
+
+
+
+/* 1:39 */
