@@ -308,21 +308,51 @@ body {
   display: block;
 }
 
+/* Позиционирование цифр (в кружочке) в ренгене. */
 
+.item-1 {
+  left: 150px;
+  top: 200px;
+}
 
+.item-2 {
+  left: 310px;
+  top: 200px;
+}
 
+.item-3 {
+  left: 227px;
+  top: 86px;
+}
 
+.item-4 {
+  left: 200px;
+  top: 110px;
+}
 
+.item-5 {
+  left: 228px;
+  top: 35px;
+}
 
+.item-6 {
+  left: 196px;
+  top: 408px;
+}
 
+.item-7 {
+  left: 228px;
+  top: 259px;
+}
 
+.item-8 {
+  left: 228px;
+  top: 178px;
+}
 
+.item-9 {
+  left: 260px;
+  top: 110px;
+}
 
-
-
-
-
-
-
-
-/* 1:39 */
+/* 2:00 */
