@@ -7,6 +7,8 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .container {
@@ -266,7 +268,7 @@ body {
   background-size: cover;
   background-position: top center;
   position: relative;
-  margin-top: -170px;
+  margin-top: -180px;
 }
 
 .tabs {
@@ -282,7 +284,7 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.7px;
-  padding: 23px 40px 23px 0;
+  padding: 23px 20px 23px 0;
   border-bottom: 1px solid #e6efde;
   text-transform: uppercase;
   cursor: pointer;
@@ -389,6 +391,7 @@ body {
   align-items: center;
   width: 50%;
   text-transform: none;
+  letter-spacing: normal;
 }
 
 .tabs__box .tab span {
@@ -410,25 +413,31 @@ body {
   display: none;
 }
 
+.tabs__reviews {
+  padding: 20px;
+  background-color: #e6efde;
+  max-width: 416px;
+  position: absolute;
+  bottom: 0;
+}
 
+.tabs__reviews-inner {
+  border: 1px solid #c5dab5;
+  padding: 30px 30px 30px 40px;
+}
 
+.tabs__reviews-text {
+  color: #303030;
+}
 
+.tabs__reviews-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: #7eb152;
+  padding: 0px 8px;
+  position: absolute;
+  bottom: 10px;
+  background-color: #e6efde;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 24:00 */
+/* 54:00 */
