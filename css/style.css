@@ -266,6 +266,7 @@ body {
   background-size: cover;
   background-position: top center;
   position: relative;
+  margin-top: -170px;
 }
 
 .tabs {
@@ -278,11 +279,26 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #303030;
+  display: flex;
+  align-items: center;
   letter-spacing: 0.7px;
-  padding: 20px 0;
+  padding: 23px 40px 23px 0;
   border-bottom: 1px solid #e6efde;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.tab.active {
+  position: relative;
+}
+
+.tab.active::after {
+  content: "";
+  position: absolute;
+  right: 25px;
+  background-image: url(../images/chevron.svg);
+  width: 8px;
+  height: 13px;
 }
 
 .tab span {
@@ -389,6 +405,14 @@ body {
 .tabs__box .tab:nth-child(2) {
   padding-left: 25px;
 }
+
+.tabs__box .tab.active::after {
+  display: none;
+}
+
+
+
+
 
 
 
