@@ -488,25 +488,95 @@ body {
   background-repeat: no-repeat;
 }
 
+.popularity__inner {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
 
+.popularity__right {
+  max-width: 500px;
+  padding-right: 15px;
+  width: 100%;
+}
 
+.popularity__right-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #303030;
+  margin-top: 60px;
+}
 
+.popularity__right-subtitle {
+  color: #303030;
+  padding: 50px 0;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
 
+.popularity__right-list {
+  list-style: none;
+}
 
+.popularity__right-list li {
+  line-height: 22px;
+  color: #303030;
+  margin-bottom: 45px;
+  padding-left: 40px;
+  position: relative;
+}
 
+/* Стрелки для подразделов li  */
 
+.popularity__right-list li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 8px;
+  height: 13px;
+  background-image: url(../images/chevron.svg);
+  top: 50%;
+  transform: translateY(-50%);
+}
 
+.popularity__box {
+  background-color: #fff;
+  padding: 20px;
+}
 
+.popularity__box-text {
+  border: 1px solid #c5dab5;
+  padding: 30px;
+  color: #303030;
+  margin-right: 40px;
+}
 
+/* Кнопка */
 
+.popularity__box-link {
+  padding: 22px 60px 22px 25px;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  background-color: #7eb252;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: absolute;
+}
 
+/* Стрелка для кнопки */
 
-
-
-
-
-
-
-
-
-. /* 01:04 */;
+.popularity__box-link:after {
+  content: "";
+  background-image: url(../images/arrow-right.png);
+  width: 31px;
+  height: 9px;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
