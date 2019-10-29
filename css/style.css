@@ -176,6 +176,11 @@ body {
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+/* Стрелка для кнопки */
+
+.form__btn {
   padding: 22px 110px 22px 75px;
   border: none;
   outline: none;
@@ -186,10 +191,10 @@ body {
   background-color: #7eb252;
   text-transform: uppercase;
   cursor: pointer;
+  position: relative;
 }
 
-/* Стрелка для кнопки */
-.top__form button:after {
+.form__btn:after {
   content: "";
   background-image: url(../images/arrow-right.png);
   width: 31px;
@@ -608,7 +613,7 @@ body {
 
 .history__text {
   background-color: #f6f9f3;
-  padding: 55px 30px 90px 0;
+  padding: 50px 30px 90px 0;
   max-width: 700px;
   position: relative;
 }
@@ -626,3 +631,41 @@ body {
 .history__text p {
   margin-bottom: 15px 0;
 }
+
+.history__form {
+  max-width: 400px;
+  padding-left: 30px;
+  margin-left: 200px;
+}
+
+.history__form-title {
+  margin: 40px 0px 25px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  padding-right: 30px;
+  text-transform: uppercase;
+}
+
+/* Ввод E-mail */
+
+.history__form  input {
+  border: none;
+  outline: none;
+  height: 34px;
+  border-bottom: 1px solid #cddcbc;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+}
+
+.history__form  input::placeholder {
+  color: #a8c48c;
+}
+
+.history__form button {
+  width: 100%;
+  margin-top: 30px;
+}
+
+
