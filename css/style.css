@@ -22,7 +22,7 @@ body {
 .container__fluid {
   max-width: 1720px;
   margin: 0 auto;
-  overflow: hidden;  /* Область внутри элемента. */
+  overflow: hidden; /* Область внутри элемента. */
 }
 
 .header__inner {
@@ -182,7 +182,7 @@ body {
 /* Стрелка для кнопки */
 
 .form__btn {
-  padding: 22px 110px 22px 75px;
+  padding: 20px 110px 20px 75px;
   border: none;
   outline: none;
   color: #fff;
@@ -265,7 +265,7 @@ body {
 
 .list__inner::before,
 .list__inner::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 100%;
   top: 0;
@@ -615,6 +615,7 @@ body {
 
 .history {
   padding-top: 270px;
+  margin-bottom: 50px;
 }
 
 .history__wrapper {
@@ -625,7 +626,7 @@ body {
 }
 
 .history__title {
-  padding: 90px 0 45px;
+  padding: 60px 0 40px;
   font-size: 40px;
   line-height: 50px;
   font-weight: 700;
@@ -634,7 +635,7 @@ body {
 
 .history__text {
   background-color: #f6f9f3;
-  padding: 50px 30px 90px 0;
+  padding: 50px 30px 70px 0;
   max-width: 700px;
   position: relative;
 }
@@ -650,7 +651,7 @@ body {
 }
 
 .history__text p {
-  margin-bottom: 15px 0;
+  margin: 15px 0;
 }
 
 .history__form {
@@ -660,7 +661,7 @@ body {
 }
 
 .history__form-title {
-  margin: 40px 0px 25px;
+  margin: 40px 0px 30px;
   font-size: 14px;
   line-height: 22px;
   font-weight: 700;
@@ -670,7 +671,7 @@ body {
 
 /* Ввод E-mail */
 
-.history__form  input {
+.history__form input {
   border: none;
   outline: none;
   height: 34px;
@@ -680,13 +681,54 @@ body {
   font-size: 14px;
 }
 
-.history__form  input::placeholder {
+.history__form input::placeholder {
   color: #a8c48c;
 }
 
 .history__form button {
   width: 100%;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
+/* Quote */
 
+.quote {
+  min-height: 619px;
+  background-image: url(../images/quotebg-left.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left center;
+}
+
+.quote__wrapper {
+  padding: 150px 0 100px;
+  min-height: 619px;
+  background-image: url(../images/quotebg-right.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right center;
+}
+
+.quote__inner {
+  max-width: 770px;
+  padding: 50px 0;
+  border-top: 1px solid #a4c58c;
+  border-bottom: 1px solid #a4c58c;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.autor {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.autor span {
+  font-size: 16px;
+  color: #9a9a9a;
+}
