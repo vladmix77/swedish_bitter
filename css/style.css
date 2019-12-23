@@ -745,7 +745,7 @@ body {
 
 .items__wrapper {
   background-color: #f6f9f3;
-  min-width: 385px;
+  min-height: 385px;
 }
 
 .items__inner {
@@ -759,9 +759,29 @@ body {
 
 .item {
   width: 312px;
-  min-width: 312px;
+  min-height: 312px;
   border: 1px solid #e4eddc;
-} 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item__number {
+position: absolute;
+font-weight: 900;
+font-size: 150px;
+line-height: 115px;
+color: #f7f9f3;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.item__content {
+position: relative;
+text-align: center;
+}
 
 
 
