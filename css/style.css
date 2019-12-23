@@ -732,3 +732,13 @@ body {
   font-size: 16px;
   color: #9a9a9a;
 }
+
+/* Items */
+
+.items__title {
+  padding: 100px 0;
+  max-width: 525px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
