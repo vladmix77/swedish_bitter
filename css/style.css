@@ -755,6 +755,8 @@ body {
   background-color: #fff;
   max-width: 1010px;
   margin: 0 auto;
+  position: relative;
+  top: -70px;
 }
 
 .item {
@@ -768,35 +770,29 @@ body {
 }
 
 .item__number {
-position: absolute;
-font-weight: 900;
-font-size: 150px;
-line-height: 115px;
-color: #f7f9f3;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+  position: absolute;
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 115px;
+  color: #f7f9f3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
 }
 
 .item__content {
-position: relative;
-text-align: center;
+  position: relative;
+  text-align: center;
 }
 
+.item__content-img {
+  margin-bottom: 30px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.item__content-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 0 10px 10px;
+}
