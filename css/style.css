@@ -816,23 +816,27 @@ body {
 
 .composition__item-name,
 .composition__item-num {
-font-size: 14px;
- line-height: 24px;
-letter-spacing: 3px;
-color: #a4c58c;
-font-weight: 700;
-position: absolute;
-transform: rotate(-90deg);
-top: 20px;
-left: -7px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3px;
+  color: #a4c58c;
+  font-weight: 700;
+  position: absolute;
+  transform: rotate(-90deg);
 }
 
 .composition__item-name {
-font-weight: 400;
+  font-weight: 400;
+  bottom: 14px;
+  right: 28px;
+  width: 0;
+  white-space: nowrap;
+  height: 0;
 }
 
 .composition__item-num {
-
+  top: 20px;
+  left: -7px;
 }
 
 .composition__item-effect {
