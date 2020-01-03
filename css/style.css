@@ -796,3 +796,45 @@ body {
   text-transform: uppercase;
   padding: 0 10px 10px;
 }
+
+/* Composition */
+
+.composition__item {
+  background-color: #f6f9f3;
+  display: inline-block;
+}
+
+.composition__item-inner {
+  width: 270px;
+  height: 270px;
+  background-image: url(../images/comp-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
+.composition__item-name,
+.composition__item-num {
+font-size: 14px;
+ line-height: 24px;
+letter-spacing: 3px;
+color: #a4c58c;
+font-weight: 700;
+position: absolute;
+transform: rotate(-90deg);
+top: 20px;
+left: -7px;
+}
+
+.composition__item-name {
+font-weight: 400;
+}
+
+.composition__item-num {
+
+}
+
+.composition__item-effect {
+  display: none;
+}
