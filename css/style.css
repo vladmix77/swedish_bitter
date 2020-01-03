@@ -837,8 +837,47 @@ body {
 .composition__item-num {
   top: 20px;
   left: -7px;
+  text-transform: uppercase;
 }
 
 .composition__item-effect {
-  display: none;
+  opacity: 0;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  top: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:url(../images/comp-bg.png) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+transition: all .3s;
 }
+
+.composition__item-text {
+  color: #fff;
+  padding: 10px;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+left: 20px;
+text-align: center;
+}
+
+
+.composition__item-inner:hover .composition__item-effect {
+  opacity: 1;
+  }
+
+
+
+
+
+
+
+
