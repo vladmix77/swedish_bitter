@@ -847,37 +847,24 @@ body {
   right: 20px;
   bottom: 20px;
   top: 20px;
-  width: 100%;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image:url(../images/comp-bg.png) ;
+  background-image: url(../images/comp-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-transition: all .3s;
+  transition: all 0.3s;
 }
 
 .composition__item-text {
   color: #fff;
-  padding: 10px;
-font-size: 14px;
-font-weight: 700;
-text-transform: uppercase;
-left: 20px;
-text-align: center;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
 }
-
 
 .composition__item-inner:hover .composition__item-effect {
   opacity: 1;
-  }
-
-
-
-
-
-
-
-
+}
