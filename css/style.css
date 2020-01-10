@@ -586,7 +586,8 @@ body {
 
 /* Кнопка */
 
-.popularity__box-link {
+.popularity__box-link,
+.composition__link-btn {
   padding: 22px 100px 22px 25px;
   outline: none;
   color: #fff;
@@ -601,7 +602,8 @@ body {
 
 /* Стрелка для кнопки */
 
-.popularity__box-link:after {
+.popularity__box-link::after,
+.composition__link-btn::after {
   content: "";
   background-image: url(../images/arrow-right.png);
   width: 31px;
@@ -919,9 +921,12 @@ list-style: none;
 
  /* 3 -block  */
 .composition__link {
+  margin-left: 10px;
   border: 1px solid #c8dcba;
   padding: 54px 100px 75px 50px;
-  max-width: 830px ;
+  max-width: 830px;
+  height: 100%;
+  position: relative;
 }
 
 .composition__link-text {
@@ -943,6 +948,12 @@ position: relative;
 .composition__link-text p {
   line-height: 22px;
   margin-bottom: 15px; 
+}
+
+.composition__link-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 
