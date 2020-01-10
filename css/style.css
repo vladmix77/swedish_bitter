@@ -587,7 +587,7 @@ body {
 /* Кнопка */
 
 .popularity__box-link {
-  padding: 22px 60px 22px 25px;
+  padding: 22px 100px 22px 25px;
   outline: none;
   color: #fff;
   font-size: 14px;
@@ -607,7 +607,7 @@ body {
   width: 31px;
   height: 9px;
   position: absolute;
-  right: 20px;
+  right: 40px;
   top: 30px;
 }
 
@@ -917,7 +917,7 @@ list-style: none;
   background-color: #a4c58c;
 }
 
-
+ /* 3 -block  */
 .composition__link {
   border: 1px solid #c8dcba;
   padding: 54px 100px 75px 50px;
@@ -937,7 +937,8 @@ position: relative;
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background-color: #a4c58c
+  background-color: #a4c58c;
+}
 
 .composition__link-text p {
   line-height: 22px;
