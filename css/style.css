@@ -805,7 +805,7 @@ body {
 
 .composition__item {
   background-color: #f6f9f3;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .composition__item-inner {
@@ -916,6 +916,35 @@ list-style: none;
   border-radius: 50%;
   background-color: #a4c58c;
 }
+
+
+.composition__link {
+  border: 1px solid #c8dcba;
+  padding: 54px 100px 75px 50px;
+  max-width: 830px ;
+}
+
+.composition__link-text {
+padding-left: 25px;
+position: relative;
+}
+
+.composition__link-text::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #a4c58c
+
+.composition__link-text p {
+  line-height: 22px;
+  margin-bottom: 15px; 
+}
+
+
 
 
 
