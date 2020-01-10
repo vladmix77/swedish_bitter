@@ -514,8 +514,9 @@ body {
 
 .popularity__wrapper {
   background-image: url(../images/popularity.jpg);
-  min-height: 645px;
+  min-height: 640px;
   background-repeat: no-repeat;
+  padding-right: 15px;
 }
 
 .popularity__inner {
@@ -574,7 +575,7 @@ body {
 
 .popularity__box {
   background-color: #fff;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
 }
 
 .popularity__box-text {
