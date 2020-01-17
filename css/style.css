@@ -957,9 +957,16 @@ position: relative;
   right: 0;
 }
 
+/* reviews */
 
+.reviews {
+  
+}
 
-
+.reviews__title {
+  font-size: 40px;
+  font-weight: 700;
+}
 
 
 
