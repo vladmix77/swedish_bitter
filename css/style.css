@@ -1140,8 +1140,13 @@ body {
   padding-top: 250px;
 }
 
+.certificate .container__fluid {
+  overflow: visible;
+}
+
 .certificate__title {
   font-size: 40px;
+  font-weight: 700;
   line-height: 50px;
   margin-bottom: 30px;
 }
@@ -1151,19 +1156,36 @@ body {
 }
 
 .certificate__wrapper {
-  
+background-color: #f6f9f3;
+padding: 30px 0 95px;
 }
 
 .container {
 }
 
 .certificare__inner {
+display: flex;
+
+
 }
 .certificate__content {
+  max-width: 670px;
+  margin-right: 60px;
+  padding-left: 70px;
 }
+
 .certificate__text {
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.7px;
+text-transform: uppercase;
+margin-bottom: 35px;
+padding-right: 85px;
 }
 .certificate__box {
+
 }
-.certificate__images {
+.certificate__images img {
+  position: relative;
+  top: -200px;
 }
