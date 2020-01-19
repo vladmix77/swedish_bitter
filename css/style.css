@@ -590,7 +590,8 @@ body {
 .popularity__box-link,
 .composition__link-btn,
 .reviews__link-popup,
-.build__link {
+.build__link,
+.certificate__link {
   padding: 22px 100px 22px 25px;
   outline: none;
   color: #fff;
@@ -608,7 +609,8 @@ body {
 .popularity__box-link::after,
 .composition__link-btn::after,
 .reviews__link-popup::after,
-.build__link::after {
+.build__link::after,
+.certificate__link::after {
   content: "";
   background-image: url(../images/arrow-right.png);
   width: 31px;
@@ -1151,16 +1153,9 @@ body {
   margin-bottom: 30px;
 }
 
-.container-fluid {
-
-}
-
 .certificate__wrapper {
 background-color: #f6f9f3;
-padding: 30px 0 95px;
-}
-
-.container {
+padding: 30px 0 0;
 }
 
 .certificare__inner {
@@ -1182,10 +1177,38 @@ text-transform: uppercase;
 margin-bottom: 35px;
 padding-right: 85px;
 }
-.certificate__box {
 
+.certificate__box {
+  background-color: #fff;
+  padding: 16px 20px 20px 20px;
 }
+
+.certificate__box fieldset {
+border: 1px solid #c8dcba;
+padding: 45px 45px 90px 50px;
+position: relative;
+}
+
+.certificate__box legend {
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+color: #a4c58c;
+padding: 0 5px;
+}
+
+.certificate__box p {
+  margin: 0 0 10px;
+  line-height: 22px;
+}
+
+.certificate__link {
+  bottom: 0;
+  right: 0;
+  padding: 18px 85px 18px 60px;
+}
+
 .certificate__images img {
   position: relative;
-  top: -200px;
+  top: -215px;
 }
