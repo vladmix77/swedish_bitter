@@ -25,7 +25,8 @@ body {
   overflow: hidden; /* Область внутри элемента. */
 }
 
-.header__inner {
+.header__inner,
+.footer__inner {
   display: flex;
   justify-content: space-between;
   height: 105px;
@@ -39,18 +40,21 @@ body {
   color: #9a9a9a;
 }
 
-.header__phone {
+.header__phone,
+.footer__phone {
   font-weight: 500;
   font-size: 20px;
 }
 
-.header__phone a {
+.header__phone a,
+.footer__phone a {
   color: #303030;
   text-decoration: none;
   position: relative;
 }
 
-.header__phone a:before {
+.header__phone a::before,
+.footer__phone a::before {
   content: "";
   background-image: url(../images/phone.svg);
   width: 15px;
@@ -60,12 +64,19 @@ body {
   top: 5px;
 }
 
-.header__phone-text {
+.header__phone-text,
+.footer__phone-text {
   font-weight: 400;
   font-size: 12px;
   color: #9a9a9a;
   text-align: right;
   margin-top: 5px;
+}
+
+.footer__link {
+  text-decoration: underline;
+  color: #9a9a9a;
+  font-size: 12px;
 }
 
 /* Блок top */
@@ -1160,9 +1171,9 @@ padding: 30px 0 0;
 
 .certificare__inner {
 display: flex;
-
-
+height: 560px;
 }
+
 .certificate__content {
   max-width: 670px;
   margin-right: 60px;
