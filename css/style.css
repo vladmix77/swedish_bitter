@@ -607,7 +607,8 @@ body {
 .composition__link-btn,
 .reviews__link-popup,
 .build__link,
-.certificate__link {
+.certificate__link,
+.mobile__link-btn {
   padding: 22px 100px 22px 25px;
   outline: none;
   color: #fff;
