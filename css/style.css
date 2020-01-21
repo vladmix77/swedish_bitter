@@ -233,7 +233,7 @@ body {
 }
 
 .advantages__item {
-  max-width: 250px;
+  width: 250px;
   padding-left: 40px;
   padding-top: 35px;
   position: relative;
