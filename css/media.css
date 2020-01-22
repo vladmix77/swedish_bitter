@@ -5,7 +5,6 @@
     padding-left: 80px;
     padding-right: 80px;
   }
-
   .advantages__item {
     width: 50%;
     padding: 30px;
@@ -18,6 +17,21 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .list__inner {
+    display: block;
+  }
+  .tabs__content {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .tabs__reviews {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 940px) {
   .top__inner-form {
     position: absolute;
@@ -26,21 +40,16 @@
     flex-direction: column;
     align-items: flex-end;
   }
-  /* .advantages__inner {
-    padding-top: 120px;
-  } */
   .top__inner-suptitle,
   .top__inner-title,
   .top__inner-text {
     width: 280px;
     margin-right: 100px;
   }
-
   .top__inner-suptitle {
     margin-bottom: 30px;
     margin-top: 36px;
   }
-
   .top__inner-title {
     font-size: 50px;
     line-height: 50px;
@@ -90,7 +99,6 @@
     width: 100%;
     margin-right: 0;
   }
-
   .top__inner-form {
     left: 15px;
     position: static;
@@ -100,11 +108,9 @@
   .top__inner-img img {
     width: 100px;
   }
-
   .top__inner-img {
     order: 1;
   }
-
   .mobile__link-btn {
     display: block;
     width: 100%;
@@ -119,13 +125,12 @@
   }
   .advantages__inner {
     padding-left: 0;
-    padding-right: 0; 
+    padding-right: 0;
     padding-top: 120px;
   }
   .advantages__item::before {
     display: none;
   }
-
 }
 
 @media (max-width: 600px) {
@@ -133,7 +138,7 @@
     margin-top: -30px;
   }
   .advantages__inner {
-    padding-top: 185px;
+    padding-top: 160px;
   }
   .advantages__item {
     width: 100%;
@@ -144,8 +149,8 @@
 
 @media (max-width: 498px) {
   .advantages__inner {
-    padding-top: 135px;
-}
+    padding-top: 110px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -161,7 +166,6 @@
   .header__logo img {
     width: 115px;
   }
-
 }
 
 @media (max-width: 360px) {
@@ -188,12 +192,12 @@
     padding: 0 15px;
   }
   .advantages__inner {
-      padding-top: 115px;
+    padding-top: 90px;
   }
 }
 
 @media (max-width: 341px) {
   .advantages__inner {
-    padding-top: 80px;
-}
+    padding-top: 55px;
+  }
 }
