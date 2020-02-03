@@ -345,5 +345,8 @@
   }
   .list__inner {
     padding-bottom: 27px;
-}
+  }
+  .tabs__reviews-link {
+    left: 85px;
+  }
 }
