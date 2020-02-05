@@ -530,9 +530,13 @@ body {
 
 .popularity__wrapper {
   background-image: url(../images/popularity.jpg);
-  min-height: 640px;
+  min-height: 645px;
   background-repeat: no-repeat;
   padding-right: 15px;
+}
+
+.mobile-bg {
+  display: none;
 }
 
 .popularity__inner {
@@ -571,7 +575,7 @@ body {
 .popularity__right-list li {
   line-height: 22px;
   color: #303030;
-  margin-bottom: 45px;
+  margin-bottom: 46px;
   padding-left: 40px;
   position: relative;
 }
@@ -598,7 +602,7 @@ body {
   border: 1px solid #c5dab5;
   padding: 30px;
   color: #303030;
-  margin-right: 40px;
+  margin-right: 39px;
 }
 
 /* Кнопка */

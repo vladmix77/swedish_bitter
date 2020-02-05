@@ -1,3 +1,62 @@
+@media (max-width: 1640px) {
+  .popularity__right {
+    background-color: #fff;
+    padding-left: 25px;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 1400px) {
+  .popularity__wrapper {
+    background-size: 750px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .popularity__wrapper {
+    background-image: none;
+  }
+  .popularity__inner {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .popularity__right {
+    padding-left: 0;
+    max-width: 540px;
+    order: 0;
+  }
+
+  .popularity {
+    position: relative;
+    padding-top: 140px;
+  }
+
+  .popularity__box {
+    max-width: 600px;
+    order: 1;
+    z-index: 5;
+    position: absolute;
+    bottom: 0;
+  }
+  .popularity__box-text {
+    margin-right: 0;
+  }
+  .popularity__right-title {
+    text-align: center;
+  }
+  .popularity__right-subtitle {
+    text-align: center;
+  }
+  .mobile-bg {
+    background-image: url(../images/popularity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 645px;
+    display: block;
+  }
+}
+
 @media (max-width: 1120px) {
   .advantages__inner {
     flex-wrap: wrap;
