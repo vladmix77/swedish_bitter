@@ -234,6 +234,17 @@
   .top__inner-img {
     order: 1;
   }
+  .popularity__box-link {
+    max-width: 600px;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    width: 100%;
+    position: static;
+    display: block;
+  }
+  .popularity__box-link::after {
+    display: none;
+  }
   .mobile__link-btn {
     display: block;
     width: 100%;
@@ -364,6 +375,30 @@
   }
   .header__logo img {
     width: 115px;
+  }
+  .popularity__wrapper {
+    min-height: 245px;
+
+    padding-right: 0;
+}
+  .popularity {
+    padding-top: 60px;
+}
+  .popularity__box {
+    bottom: -300px;
+  }
+  .popularity__right-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .popularity__right-list li{
+    margin-bottom: 15px;
+  }
+  .popularity__right-subtitle {
+    padding: 25px 0;
+}
+  .mobile-bg {
+    min-height: 245px;
   }
 }
 
