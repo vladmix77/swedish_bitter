@@ -265,6 +265,9 @@
   .advantages__item::before {
     display: none;
   }
+  .mobile-bg {
+    min-height: 545px;
+}
 }
 
 @media (max-width: 600px) {
@@ -356,6 +359,9 @@
   .list__link a:after {
     display: none;
   }
+  .mobile-bg {
+    min-height: 445px;
+}
 }
 
 @media (max-width: 498px) {
