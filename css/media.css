@@ -67,10 +67,14 @@
   .history__title {
     text-align: center;
     max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .history__text {
     max-width: 100%;
     padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .history {
     background-color: #f6f9f3;
@@ -80,10 +84,28 @@
     max-width: 100%;
     background-color: #fff;
     padding-top: 30px;
+    padding-left: 45px;
+    padding-right: 50%;
+    padding-bottom: 245px;
+    position: relative;
+  }
+  .history__form::after {
+    content: "";
+    width: 355px;
+    height: 420px;
+    background-image: url(../images/alonso.jpg);
+    position: absolute;
+    right: 15px;
+    top: -25px;
+    background-size: cover;
+  }
+  .history .container {
+    padding-left: 0;
+    padding-right: 0;
   }
   .history__wrapper {
     min-height: 0;
-}
+  }
 }
 
 @media (max-width: 1120px) {
@@ -222,6 +244,25 @@
   .advantages__item {
     padding-right: 70px;
   }
+  .history__title {
+    font-size: 30px;
+    line-height: 40px;
+    max-width: 460px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .history__text {
+    padding-top: 10px;
+  }
+  .history__form {
+    padding-right: 57%;
+  }
+  .form__btn {
+    padding: 20px 50px 20px 50px;
+  }
+  .form__btn:after {
+    background-image: none;
+  }
 }
 
 @media (max-width: 740px) {
@@ -236,6 +277,18 @@
 @media (max-width: 700px) {
   .header__text {
     display: none;
+  }
+  .history__form {
+    padding-right: 45px;
+    padding-top: 400px;
+    padding-bottom: 50px;
+  }
+  .history__form::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 385px;
   }
 }
 
@@ -296,6 +349,9 @@
   }
   .mobile-bg {
     min-height: 545px;
+  }
+  .history {
+    padding-top: 100px;
   }
 }
 
@@ -440,6 +496,22 @@
   .mobile-bg {
     min-height: 245px;
   }
+  .history__form {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .history__form-title {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .history__title {
+    padding-top: 200px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .history__form input {
+    text-align: center;
+  }
 }
 
 @media (max-width: 360px) {
@@ -487,5 +559,8 @@
   }
   .tabs__reviews-link {
     left: 85px;
+  }
+  .history__form-title {
+    text-align: center;
   }
 }

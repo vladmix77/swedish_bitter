@@ -532,7 +532,7 @@ body {
   background-image: url(../images/popularity.jpg);
   min-height: 645px;
   background-repeat: no-repeat;
-  padding-right: 15px;
+  /* padding-right: 15px; */
 }
 
 .mobile-bg {
