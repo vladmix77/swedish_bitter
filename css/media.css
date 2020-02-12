@@ -32,12 +32,10 @@
     max-width: 540px;
     order: 0;
   }
-
   .popularity {
     position: relative;
     padding-top: 140px;
   }
-
   .popularity__box {
     max-width: 600px;
     order: 1;
@@ -111,6 +109,19 @@
     padding: 0;
     min-height: 0;
     background-image: none;
+  }
+  .composition__box {
+    max-width: 100%;
+    order: 0;
+  }
+  .composition__item {
+    order: 1;
+  }
+  .composition__row {
+    justify-content: space-around;
+  }
+  .composition__link {
+    max-width: 600px;
   }
 }
 
@@ -256,6 +267,9 @@
   .item {
     min-height: 275px;
   }
+  .composition__link {
+    order: 2;
+  }
 }
 
 @media (max-width: 768px) {
@@ -312,6 +326,23 @@
   .items__wrapper {
     min-height: 300px;
   }
+  .composition__box {
+    margin: 0 auto;
+    max-width: 520px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .composition__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .composition__title br {
+    display: none;
+  }
+  .composition__box-list li {
+
+ 
+}
 }
 
 @media (max-width: 740px) {
