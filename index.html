@@ -61,8 +61,8 @@
                     <div class="top__form-title">
                       Узнайте подробнее о бальзаме
                     </div>
-                    <input type="text" placeholder="Имя" />
-                    <input type="text" placeholder="Телефон" />
+                    <input type="text" name="name" placeholder="Имя" />
+                    <input type="tel" name="phone" placeholder="Телефон" />
                     <button class="form__btn" type="submit">Узнать</button>
                   </div>
                 </form>
@@ -223,8 +223,10 @@
               <div class="history__form-title">
                 Оставьте свою почту и получайте рецепты молодости и здоровья каждую неделю
               </div>
-              <input type="text" placeholder="E-mail" required />
-              <button class="form__btn" type="submit">оставить почту</button>
+              <form>
+                <input type="text" placeholder="E-mail" required />
+                <button class="form__btn" type="submit">оставить почту</button>
+              </form>
             </div>
           </div>
         </div>
@@ -290,8 +292,6 @@
 
     <section class="composition">
       <div class="container">
-        <!-- 1 block  -->
-
         <div class="composition__row">
           <div class="composition__item">
             <div class="composition__item-inner">
@@ -341,8 +341,6 @@
             </ul>
           </div>
         </div>
-
-        <!-- 2 block -->
 
         <div class="composition__row">
           <div class="composition__item">
@@ -474,8 +472,6 @@
           </div>
         </div>
 
-        <!-- 3 block  -->
-
         <div class="composition__row">
           <div class="composition__link">
             <div class="composition__link-text">
@@ -489,7 +485,7 @@
               </p>
             </div>
 
-            <a class="composition__link-btn" href="">заказать сбор трав</a>
+            <a class="composition__link-btn" href="#">заказать сбор трав</a>
           </div>
 
           <div class="composition__item">
@@ -599,7 +595,7 @@
 
     <!-- Build -->
 
-    <seсtion class="build">
+    <!-- <seсtion class="build">
       <div class="container__fluid">
         <div class="build__wrapper">
           <div class="container">
