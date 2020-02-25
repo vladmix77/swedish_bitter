@@ -159,8 +159,7 @@
   }
   .certificate__content {
     padding-left: 0;
-}
-
+  }
 }
 
 @media (max-width: 1000px) {
@@ -255,13 +254,13 @@
   }
   .footer__phone-text {
     display: none;
-}
-.footer__phone a::before {
- display: none;
-}
-.footer__phone a {
-  padding-bottom: 10px;
-}
+  }
+  .footer__phone a::before {
+    display: none;
+  }
+  .footer__phone a {
+    padding-bottom: 10px;
+  }
 }
 
 @media (max-width: 940px) {
@@ -308,28 +307,28 @@
   .certificare__inner {
     height: 100%;
     display: block;
-}
-.certificate__title {
-text-align: center;
-}
-.certificate__text {
- text-align: center;
- padding-right: 0;
-}
-.certificate__content {
-  max-width: 100%;
-  margin-right: 0;
-}
-.certificate__images {
-  padding: 25px 0;
-  text-align: center;
-}
-.certificate__images img {
-  position: static;
-}
-.certificate {
-  padding-top: 90px;
-}
+  }
+  .certificate__title {
+    text-align: center;
+  }
+  .certificate__text {
+    text-align: center;
+    padding-right: 0;
+  }
+  .certificate__content {
+    max-width: 100%;
+    margin-right: 0;
+  }
+  .certificate__images {
+    padding: 25px 0;
+    text-align: center;
+  }
+  .certificate__images img {
+    position: static;
+  }
+  .certificate {
+    padding-top: 90px;
+  }
 }
 
 @media (max-width: 840px) {
@@ -349,7 +348,6 @@ text-align: center;
   .certificate {
     padding-top: 0;
   }
-  
 }
 
 @media (max-width: 768px) {
@@ -806,18 +804,32 @@ text-align: center;
   }
   .certificate__box fieldset {
     padding: 45px 10px 90px 10px;
-}
-.certificate__title {
-  font-size: 24px;
-  line-height: 50px;
-}
-.certificate__text {
-  font-size: 12px;
-line-height: 20px;
-}
-.footer__phone a {
-  display: none;
-}
+  }
+  .certificate__title {
+    font-size: 24px;
+    line-height: 50px;
+  }
+  .certificate__text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .footer__phone a {
+    display: none;
+  }
+  .certificate__images img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .certificate__link::after {
+    display: none;
+  }
+  .certificate__link {
+    padding: 20px 10px 20px 10px;
+    width: 100%;
+    text-align: center;
+    position: static;
+    display: block;
+  }
 }
 
 @media (max-width: 370px) {
@@ -901,6 +913,21 @@ line-height: 20px;
   .reviews__title {
     font-size: 24px;
     line-height: 30px;
+  }
+  .certificate {
+    background-color: #f6f9f3;
+  }
+  .certificate__box {
+    padding: 0;
+    background-color: #f6f9f3;
+  }
+  .certificate__box fieldset {
+    padding: 0;
+    border: none;
+  }
+  .certificate__box legend {
+    text-align: center;
+    font-weight: 700;
   }
 }
 
