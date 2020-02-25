@@ -841,11 +841,44 @@ body {
 .composition__item-inner {
   width: 270px;
   height: 270px;
-  background-image: url(../images/comp-1.png);
+  /* background-image: url(../images/comp-1.png); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
   position: relative;
+}
+.composition__foto1 {
+  background-image: url(../images/comp-1.png);
+}
+.composition__foto2 {
+  background-image: url(../images/comp-2.png);
+}
+.composition__foto3 {
+  background-image: url(../images/comp-3.png);
+}
+.composition__foto4 {
+  background-image: url(../images/comp-4.png);
+}
+.composition__foto5 {
+  background-image: url(../images/comp-5.png);
+}
+.composition__foto6 {
+  background-image: url(../images/comp-6.png);
+}
+.composition__foto7 {
+  background-image: url(../images/comp-7.png);
+}
+.composition__foto8 {
+  background-image: url(../images/comp-8.png);
+}
+.composition__foto9 {
+  background-image: url(../images/comp-9.png);
+}
+.composition__foto10 {
+  background-image: url(../images/comp-10.png);
+}
+.composition__foto11 {
+  background-image: url(../images/comp-11.png);
 }
 
 .composition__item-name,
