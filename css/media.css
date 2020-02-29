@@ -827,7 +827,7 @@
     padding: 20px 10px 20px 10px;
     width: 100%;
     text-align: center;
-    position: static;
+    /* position: static; */
     display: block;
   }
 }
@@ -928,6 +928,9 @@
   .certificate__box legend {
     text-align: center;
     font-weight: 700;
+  }
+  .certificate__link {
+    position: static;
   }
 }
 
